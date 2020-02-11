@@ -9,8 +9,7 @@ public class Empleado {
 	private String apellidom;
 	private String direccion;
 	private int fono;
-	private String Email;
-	
+	private String Email
 	public Empleado() {
 	}
 	public  Empleado(String rut, String nombre, String apellidop, String apellidom,String cargo) {

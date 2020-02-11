@@ -38,7 +38,6 @@ public class Biotren {
 		} else {
 			
 			tarifa = 600;
-			
 		}
 		
 	}

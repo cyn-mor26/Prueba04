@@ -1,13 +1,12 @@
-package Empresa;
+package Prueba04;
 
 public class clase_publica extends Empleado_uno {
-
 	private String municipalidad;
 	private String dpto;
 
-	public clase_publica(String nombre, String rut, String apellido1, String apellido2, String direccion, int telefono,
+	public clase_publica(String nombre, String rut, String apellidos, String direccion, int telefono,
 			double sueldo,String municipalidad,String dpto) {
-		super(nombre, rut, apellido1, apellido2, direccion, telefono, sueldo);
+		super(nombre, rut, apellidos, direccion, telefono, sueldo);
 		this.municipalidad=municipalidad;
 		this.dpto=dpto;
 		
@@ -28,14 +27,10 @@ public class clase_publica extends Empleado_uno {
 
 	@Override
 	public String toString() {
-		return "clase_publica [getMunicipalidad()=" + getMunicipalidad() + ", getDpto()=" + getDpto() + ", getRut()="
-				+ getRut() + ", getNombre()=" + getNombre() + ", getApellido1()=" + getApellido1() + ", getApellido2()="
-				+ getApellido2() + ", getDireccion()=" + getDireccion() + ", getTelefono()=" + getTelefono()
-				+ ", getSueldo()=" + getSueldo() +", getMunicipalidad()="+ getMunicipalidad()+ ",getDpto()="+getDpto()+";"
+		return "clase_publica [municipalidad=" + municipalidad + ", dpto=" + dpto + ", getMunicipalidad()="
+				+ getMunicipalidad() + ", getDpto()=" + getDpto() + "]";
 	}
-	
 }
-
 	
 
 

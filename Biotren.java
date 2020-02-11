@@ -15,7 +15,7 @@ public class Biotren {
 			//sumar abono a saldo
 			this.saldo = saldo + abono;
 			//Me imprime lo abonado y el  saldo final
-			System.out.println("Se han cargado $" + abono + " a su tarjeta. " + "Su nuevo saldo es de $" + saldo + ".");
+			System.out.println("han recargado $" + abono + " a su tarjeta. " + "Saldo final $" + saldo + ".");
 			
 		}
 		

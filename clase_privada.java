@@ -1,18 +1,17 @@
-package Prueba04;
+package Empresa;
 
 public class clase_privada extends Empleado_uno{
-	
+
 	private String comuna;
 	private String empresa;
 
 	public clase_privada(String nombre, String rut, String apellidos, String direccion, int telefono,
-			double sueldo,String comuna, String empresa) {
-		super(nombre, rut, apellidos, direccion, telefono, sueldo);
-		this.comuna =comuna;
-		this.empresa =empresa;
-		
+			double sueldo, String comuna, String empresa) {
+		super(nombre, rut, apellidos,direccion, telefono, sueldo);
+		this.comuna=comuna;
+		this.empresa=empresa;
+	
 	}
-
 	public String getComuna() {
 		return comuna;
 	}
@@ -22,19 +21,15 @@ public class clase_privada extends Empleado_uno{
 	public String getEmpresa() {
 		return empresa;
 	}
-	public void setEmpresa(String Empresa) {
-		this.empresa =Empresa;
+	public void setEmpresa(String empresa) {
+		this.empresa = empresa;
 	}
-
 	@Override
 	public String toString() {
 		return "clase_privada [comuna=" + comuna + ", empresa=" + empresa + ", getComuna()=" + getComuna()
 				+ ", getEmpresa()=" + getEmpresa() + "]";
 	}
 
+	}
 	
-}
-
-	
-
 

@@ -1,4 +1,4 @@
-package Prueba04;
+package Empresa;
 
 public class clase_publica extends Empleado_uno {
 	private String municipalidad;
@@ -32,6 +32,4 @@ public class clase_publica extends Empleado_uno {
 	}
 }
 	
-
-
 
